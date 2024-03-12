@@ -21,14 +21,7 @@
                 <p class="text-primary">Define Elements</p>
                 <p class="text-danger">Define Tags</p>
 
-            </div>
-                <div class="col-3">
-                    <p style="background-color: greenyellow;">Define Attributes</p>
-                    <p style="background-color: yellow;">Define Elements</p>
-                    <p style="background-color: aliceblue;">Define Tags</p>
-                </div>
-                   
-        </div>
+                <?php include_once ('nav.html'); ?>
         <hr>
         <div class="container mt-4">
             <h4>Styling with attributes</h4>

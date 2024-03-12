@@ -12,11 +12,9 @@
             <h5>Level five</h5>
             <h6>Level six</h6>
             <p style="color:red">Welcome to my about page</p>
-            <a href="index.html">Index</a>
-            <a href="index2.html">Index2</a>
-            <a href="First_code.html">First Code</a>
-            <a href="Assignments/Assignment3.html">Assignment3</a>
-            <a href="First_code.html">
+
+            <?php include_once ('nav.html'); ?>
+            
                 <image src="Images/N1.jpg" width="50" height="50" ></image></a><img src="Images/N1.jpg" alt="nature" width="1000px" height="500px" align="right" style="border-color: blue;" boder:3px/>
     
             <image src="Images/N3.jpg" width="100px" height="200px"></image><a img src=""></a>
