@@ -1,19 +1,21 @@
-<?php 
+<?php
+function add(){
+  echo "Enter first number:";
+  $num1= fgets(STDIN);
+  // Converting the input to float since fgets returns a string
+  $num1 = (float)$num1;
+  
+  echo "Enter second number:";
+  $num2= fgets(STDIN);
+  // Converting the input to float since fgets returns a string
+  $num2 = (float)$num2;
 
-function MyName ($name){
-    echo "My name is : $name /n";
+  // Calculating the sum
+  $result = $num1 + $num2;
 
-
+  echo "Addition result: $result";
 }
 
-echo "Enter Your Name: ";
-$getName=fgets(STDIN);
-
-MyName($getName)
-
-
-
-
-
-
+// Calling the function to execute it
+add();
 ?>
