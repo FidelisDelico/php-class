@@ -7,7 +7,7 @@ function add(){
   
   echo "Enter second number:";
   $num2= fgets(STDIN);
-  // Converting the input to float since fgets returns a string
+  
   $num2 = (float)$num2;
 
   // Calculating the sum
